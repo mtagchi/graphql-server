@@ -6,7 +6,6 @@ const schema = buildSchema(`
     user(id: Int!): User!
   }
 
-
   type User {
     id: ID!
     name: String!
